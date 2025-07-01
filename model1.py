@@ -3,7 +3,7 @@ import time
 from mlxtend.preprocessing import TransactionEncoder
 from mlxtend.frequent_patterns import apriori, association_rules
 
-# 1. 读取数据, 按订单分组生成SKU集合
+## 1. 读取数据, 按订单分组生成SKU集合
 time1 = time.time()
 # 读取Excel文件并筛选6月份数据
 df = pd.read_excel(r"D:\Mycode\KIVA\data\outbound.xlsx")
