@@ -1,3 +1,10 @@
+# -*- coding: utf-8 -*-
+"""
+Version1
+货架分配策略实现
+基于商品关联网络的DBSCAN聚类和货架分配算法
+"""
+
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
