@@ -1040,5 +1040,5 @@ if __name__ == "__main__":
         allocation_method='correlation_based',
         optimize_params=True  # 启动参数优化
     )
-    
-    print("\n分析完成！")
+      
+    print("\n分析完成!")
